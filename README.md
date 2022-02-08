@@ -1,4 +1,4 @@
-# Aplikasi pengaduan-masyarakat
+# Aplikasi pengaduan masyarakat
 
 Admin\
 Username : admin\
@@ -51,7 +51,5 @@ git clone repo-name
 ## Spesial Thanks
 * [Codeigniter](https://www.codeigniter.com)
 * [Startbootstrap](https://startbootstrap.com/)
-* 
-
 
 
