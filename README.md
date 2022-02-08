@@ -24,54 +24,6 @@ Just a simple codeigniter template using SBAdmin theme
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. You can change or modife fully this project 
 
 
-### Folder structure
-
-    .
-    ├── aplications                   
-    |   ├── controllers                
-    |   |   ├── Admin.php
-    |   |   ├── Auth.php
-    |   ├── models
-    |   ├── views
-    |   |   ├── backend
-    |   |   |   ├── 404_v.php
-    |   |   |   ├── admin_v.php
-    |   |   |   ├── animation_v.php
-    |   |   |   ├── blank_v.php
-    |   |   |   ├── border_v.php
-    |   |   |   ├── button_v.php
-    |   |   |   ├── chart_v.php
-    |   |   |   ├── card_v.php
-    |   |   |   ├── color_v.php
-    |   |   |   ├── other_v.php
-    |   |   |   ├── table_v.php
-    |   |   ├── _part
-    |   |   |    ├── backend_foot.php
-    |   |   |    ├── backend_footer.php
-    |   |   |    ├── backend_head.php
-    |   |   |    ├── backend_sidebar.php
-    |   |   |    ├── backend_topbar.php
-    |   |   |    ├── login_footer.php
-    |   |   |    ├── login_head.php
-    |   |   ├── forgotpass_v.php
-    |   |   ├── login_v.php
-    |   |   ├── register_v.php
-
-
-### Code structure in method ( function )
-
-```
- public function index(){
-        $data['title'] = 'Admin area';
-        $this->load->view('_part/backend_head', $data);
-        $this->load->view('_part/backend_sidebar_v');
-        $this->load->view('_part/backend_topbar_v');
-        $this->load->view('backend/admin_v');
-        $this->load->view('_part/backend_footer_v');
-        $this->load->view('_part/backend_foot');
-    }
-```
-
 
 ### Prerequisites
 
