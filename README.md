@@ -15,8 +15,6 @@ Pass : 123456
 
 
 
-![Alt text](assets/uploads/pengaduan-img.png?raw=true "Title")
-
 # Codeigniter SBAdmin2
 
 Just a simple codeigniter template using SBAdmin theme
